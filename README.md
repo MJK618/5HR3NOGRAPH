@@ -6,8 +6,9 @@
   <br>
 </h1>
 
-<p align="center">A simple powerful and handy steganography tool for the terminal.</p>
-
+<p align="center">An advanced, powerful and handy steganography tool for the terminal.</p>
+## Intro 
+SHR3NOGRAPH (Shre-no-graf) is a program for for encoding information in image and audio files through steganography. Steganography is the art of hiding secret data within an ordinary, non-secret, file or message in order to avoid detection. This tool has all the feature of text steganography, audio steganography, image steganography, video stegaography, but has limitations for the host file types.<br>Note: Steganography and Cryptography have complementary purposes and can be used together so just watch the clock for an update :)
 ## It can hide
 - Text and text file in an image
 - Text and text file in an audio 
@@ -22,7 +23,7 @@
 - Audio in an image
 - Audio in a gif
 - This list does not end here :)
-Please take into consideration that the supported host formats are: PNG, BMP, WebP, GIF, WAV
+<br>Please take into consideration that the supported host formats are: PNG, BMP, WebP, GIF, WAV
 Images in a different format are automatically converted to PNG. Different audio formats are not supported at all.
 The size of the host file must be bigger than the file being incoded.
 
