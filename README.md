@@ -25,7 +25,8 @@ SHR3NOGRAPH (Shre-no-graf) is a program for for encoding information in image an
 - Audio in an image
 - Audio in a gif
 - This list does not end here :)
-<br>Please take into consideration that the supported host formats are: PNG, BMP, WebP, GIF, WAV
+
+Please take into consideration that the supported host formats are: PNG, BMP, WebP, GIF, WAV
 Images in a different format are automatically converted to PNG. Different audio formats are not supported at all.
 The size of the host file must be bigger than the file being incoded.
 
