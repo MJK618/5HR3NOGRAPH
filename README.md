@@ -6,3 +6,94 @@
   <br>
 </h1>
 
+<p align="center">A simple powerful and handy steganography tool for the terminal.</p>
+
+## It can hide
+- Text and text file in an image
+- Text and text file in an audio 
+- Text and text file in a gif
+- Image in another image
+- Image in an audio 
+- Image in a gif
+- Gif in a gif
+- Gif in an image
+- Gif in an audio
+- Audio in an audio
+- Audio in an image
+- Audio in a gif
+
+Please take into consideration that the supported format for an image is a png and other formats will be converted to png. Only .wav is supported as an audio. Also note that the host file must be bigger than the file to be hidden.
+
+## Installation
+
+Clone.
+```sh
+$ git clone https://github.com/5HR3D/5HR3NOGRAPH.git
+```
+Change directory.
+```sh
+$ cd 5HR3NOGRAPH
+```
+## Usage
+#### Simple use
+Encode:
+```sh
+$ python3 main.py <text/file> <host file>
+```
+Decode:
+```sh
+$ python3 main.py <encoded file>
+```
+#### Keeping a password
+```sh
+$ python3 main.py <text/file> <host file> -p
+```
+Decode:
+```sh
+$ python3 main.py <encoded file> -p
+```
+#### More options
+```sh
+$ python3 main.py -h
+```
+### Confused?
+Are you confused or unable to understand the arguements
+```sh
+$ python3 run.py
+```
+Yoou don't even need to install requirements after running the run.py file because it is going to do everything itself. :)
+
+## Note:
+- It is advised to move the host file and the file to encode in the same directory of 5HR3NOGRAPH files.
+- Do not run the script while sudo
+- Please use Python3
+### Disclaimer 
+This Steganography tool was created for educational and personal purposes only. The creators will not be held responsible for any violations of law caused by any means by anyone. Please use this tool at your own risk.
+
+## Contact
+Mail: its5hr3d@gmail.com
+
+### Copyrights 5HR3D
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
