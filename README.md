@@ -21,8 +21,10 @@
 - Audio in an audio
 - Audio in an image
 - Audio in a gif
-
-Please take into consideration that the supported format for an image is a png and other formats will be converted to png. Only .wav is supported as an audio. Also note that the host file must be bigger than the file to be hidden.
+- This list does not end here :)
+Please take into consideration that the supported host formats are: PNG, BMP, WebP, GIF, WAV
+Images in a different format are automatically converted to PNG. Different audio formats are not supported at all.
+The size of the host file must be bigger than the file being incoded.
 
 ## Installation
 
@@ -61,10 +63,11 @@ Are you confused or unable to understand the arguements
 ```sh
 $ python3 run.py
 ```
-Yoou don't even need to install requirements after running the run.py file because it is going to do everything itself. :)
+You don't even need to install requirements after running the run.py file because it is going to do everything itself. :)
 
 ## Note:
 - It is advised to move the host file and the file to encode in the same directory of 5HR3NOGRAPH files.
+- Please remember the password, you cannot recover it.
 - Do not run the script while sudo
 - Please use Python3
 ### Disclaimer 
